@@ -44,7 +44,7 @@
       <v-img
         :src="require('@/assets/hero-desktop.jpg')"
         alt="Hero"
-				:position="$vuetify.breakpoint.mdAndDown ? 'center top' : 'left top'"
+        :position="$vuetify.breakpoint.mdAndDown ? 'center top' : 'left top'"
         width="50%"
         class="hero-img"
       ></v-img>
@@ -106,7 +106,7 @@ export default {
 }
 .homepage-desktop .content {
   padding-top: 10vh;
-	/* height: 100vh; */
+  /* height: 100vh; */
 }
 .homepage-desktop p {
   font-size: 1.1rem;
@@ -124,9 +124,9 @@ export default {
 }
 
 @media screen and (max-width: 1400px) {
-	.homepage-desktop section {
-  	padding: 1rem;
-	}
+  .homepage-desktop section {
+    padding: 1rem;
+  }
 
 }
 
